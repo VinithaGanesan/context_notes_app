@@ -1,0 +1,26 @@
+.task-create-container {
+    background-color: #F5F5F5;
+    margin: 30px 20px 30px 20px;
+    /* width: 1000px; */
+    height: auto;
+    border-radius: 10px;
+    text-align: start;
+    color: #203562;
+
+    >.add-task {
+        padding: 30px 50px 0px 50px;
+    }
+
+    >.set-time {
+        font-weight: 600;
+        padding: 0px 50px 0px 50px;
+        border-radius: 30px;
+    }
+
+    >.save-task {
+        padding: 0px 50px 30px 50px;
+        display: flex;
+        gap: 0px 20px;
+
+    }
+}

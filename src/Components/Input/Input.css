@@ -1,0 +1,30 @@
+.notes-create-container {
+    background-color: #F5F5F5;
+    margin: 30px 20px 30px 20px;
+    /* width: 1000px; */
+    height: 400px;
+    border-radius: 10px;
+    text-align: start;
+    color: #203562;
+
+    >.add-notes {
+        padding: 30px 50px 0px 50px;
+    }
+
+    >.set-time {
+        background-color: #E3E8F8;
+        font-size: small;
+        font-weight: 600;
+        margin: 30px 0px 0px 50px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 30px;
+    }
+
+    >.toolbar {
+        margin: 30px 0px 0px 50px;
+        display: flex;
+        gap: 0px 20px;
+
+    }
+}
+

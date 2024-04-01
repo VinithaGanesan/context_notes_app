@@ -1,0 +1,23 @@
+/* StarRadioButton.css */
+.star-radio-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .star-radio-button input {
+    display: none;
+  }
+  
+  .star-radio-button label {
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .star-radio-button.checked label {
+    color: gold; /* Change the color of the star when checked */
+  }
+  
